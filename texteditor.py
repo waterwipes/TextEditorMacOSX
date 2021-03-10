@@ -13,7 +13,7 @@ root.title('The Archive')
 global text_file
 text_file = False
 
-# Menu (File, Edit, ygolohcysp)
+# Menu (File, Edit)
 my_menu = Menu(root)
 root.config(menu= my_menu)
 
@@ -34,7 +34,7 @@ def new_file():
 	# set a new title to text box
 	root.title('New Archive')
 
-	# 
+	# replace previous location
 	global text_file
 	text_file = False
 
