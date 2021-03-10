@@ -34,7 +34,7 @@ def new_file():
 	# set a new title to text box
 	root.title('New Archive')
 
-	# replace previous location
+	# replace previous file location
 	global text_file
 	text_file = False
 
